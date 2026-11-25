@@ -96,3 +96,22 @@ GitHub Issues and a Project board are used to organize development tasks and doc
 Dexter Clark  
 Full Sail University  
 Computer Science
+
+
+## Milestone 1 Stand-Up
+
+### Overview
+
+I built the foundation of NeverLack Inventory Manager, a C++ console application. The menu lets users add products, view inventory, search by product ID, and update stock quantities.
+
+### Challenges
+
+Input validation was a key part of the menu. I added checks for duplicate product IDs, negative stock quantities, and invalid menu choices, then tested those cases along with the normal inventory operations.
+
+### Accomplishments
+
+I split product data, inventory operations, and menu interaction into the `Item`, `Inventory`, and `Application` classes. The project built in Visual Studio, and I verified the basic operations from the console menu.
+
+### Next Steps
+
+I plan to test more edge cases in the inventory workflow and work toward saving inventory so it can be loaded the next time the program runs.
